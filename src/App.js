@@ -7,8 +7,8 @@
 //drawing utlities from tensorflow
 //draww functions
 
-import React from "react";
-import "./styles.css";
+import React, { useRef } from "react";
+import "./App.css";
 import * as tf from "@tensorflow/tfjs";
 import * as posenet from "@tensorflow-models/posenet";
 import Webcam from "react-webcam";
