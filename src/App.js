@@ -44,7 +44,7 @@ export default function App() {
     //
     setInterval(() => {
       detectWebcamFeed(posenet_model);
-    }, 100);
+    }, 16.7);
   };
   runPosenet();
   const drawResult = (pose, video, videoWidth, videoHeight, canvas) => {
